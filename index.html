@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>SmmEye.com | Home Page</title>
+    <link rel="icon" type="image/x-icon" href=""> <!-- Link Favicon -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-5 col-10 col-sm-10 side-menu" id="side-menu">
+                    <div class="socials-menu d-flex flex-column" id="socials-menu">
+                        <div class="burger" id="left-burger"><img src="assets/images/burger.svg" alt=""></div>
+                        <ul class="socials">
+                            <li><a href="#"><img src="assets/images/socials/Instagram.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/socials/YouTube.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/socials/Facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/socials/tik_tok.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/socials/Vkontakte.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="left-menu" id="left-menu">
+                        <div class="logo">
+                            <a href="#"><span>SMM</span>EYE<span>.</span>COM</a>
+                        </div>
+                        <div class="toggle">
+                            <a href="#">RU</a>
+                            <img src="assets/images/icons/Toggle.svg" alt="">
+                            <a href="#">EN</a>
+                        </div>
+                        
+                        <ul class="socials">
+                            <li><a href="#"><img src="assets/images/socials/Instagram.svg" alt=""> Instagram</a></li>
+                            <li><a href="#"><img src="assets/images/socials/YouTube.svg" alt=""> YouTube</a></li>
+                            <li><a href="#"><img src="assets/images/socials/tik_tok.svg" alt=""> Tik-Tok</a></li>
+                            <li><a href="#"><img src="assets/images/socials/Facebook.svg" alt=""> Facebook</a></li>
+                            <li><a href="#"><img src="assets/images/socials/Vkontakte.svg" alt=""> Vkontakte </a></li>
+                        </ul>
+                        <ul class="menu">
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#" class="active">Новости</a></li>
+                            <li><a href="#">Партнёрка</a></li>
+                        </ul>
+                        <ul class="shapes">
+                            <li><a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.55372 14.2835H10.333C10.333 14.2835 10.5684 14.2577 10.6886 14.1281C10.7992 14.0092 10.7957 13.7858 10.7957 13.7858C10.7957 13.7858 10.7804 12.7402 11.2658 12.5862C11.7442 12.4345 12.3585 13.5968 13.0096 14.0437C13.502 14.382 13.8762 14.3078 13.8762 14.3078L15.6173 14.2835C15.6173 14.2835 16.5281 14.2274 16.0962 13.5113C16.0608 13.4527 15.8447 12.9816 14.8017 12.0135C13.71 11.0002 13.8562 11.1641 15.1712 9.41133C15.9721 8.3439 16.2923 7.69222 16.1923 7.4131C16.0969 7.14726 15.5079 7.21753 15.5079 7.21753L13.5475 7.22974C13.5475 7.22974 13.4022 7.20992 13.2944 7.27434C13.1891 7.33753 13.1213 7.48478 13.1213 7.48478C13.1213 7.48478 12.8111 8.3108 12.3973 9.01328C11.5243 10.4956 11.1753 10.5738 11.0327 10.4818C10.7008 10.2673 10.7836 9.62 10.7836 9.16018C10.7836 7.72372 11.0015 7.12478 10.3594 6.96974C10.1463 6.91823 9.98947 6.88425 9.44451 6.87877C8.74504 6.87151 8.15301 6.88089 7.81779 7.04514C7.59478 7.15434 7.42274 7.3977 7.52752 7.41169C7.65708 7.42903 7.95053 7.4908 8.1061 7.70266C8.30699 7.97593 8.29991 8.58974 8.29991 8.58974C8.29991 8.58974 8.41531 10.2807 8.03035 10.4908C7.76611 10.6349 7.40363 10.3407 6.6254 8.99593C6.22664 8.30708 5.92557 7.54567 5.92557 7.54567C5.92557 7.54567 5.86752 7.40337 5.76398 7.32726C5.63832 7.23505 5.46274 7.20567 5.46274 7.20567L3.59991 7.21788C3.59991 7.21788 3.32026 7.22567 3.21761 7.34726C3.12628 7.4554 3.21035 7.67912 3.21035 7.67912C3.21035 7.67912 4.66876 11.0912 6.32009 12.8106C7.83425 14.3871 9.55372 14.2835 9.55372 14.2835V14.2835Z" fill="white"/>
+                                </svg>                                    
+                            </a></li>
+                            <li><a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9456 5.30664H7.00067C6.05179 5.30664 5.27979 6.07864 5.27979 7.02753V12.9724C5.27979 13.9213 6.05179 14.6935 7.00067 14.6935H12.9456C13.8945 14.6935 14.6667 13.9215 14.6667 12.9724V7.02753C14.6667 6.07864 13.8947 5.30664 12.9456 5.30664ZM9.97312 13.0902C8.26934 13.0902 6.88312 11.704 6.88312 9.99997C6.88312 8.2962 8.26934 6.90997 9.97312 6.90997C11.6771 6.90997 13.0633 8.2962 13.0633 9.99997C13.0633 11.7038 11.6769 13.0902 9.97312 13.0902ZM12.4313 6.81775C12.4313 7.22086 12.7593 7.54886 13.1627 7.54886C13.5658 7.54886 13.8938 7.22086 13.8938 6.81775C13.8938 6.41464 13.5658 6.08664 13.1627 6.08664C12.7593 6.08664 12.4313 6.41464 12.4313 6.81775Z" fill="white"/>
+                                    <path d="M9.97317 8.21582C8.98961 8.21582 8.18872 9.01626 8.18872 9.99982C8.18872 10.9838 8.98961 11.7845 9.97317 11.7845C10.9572 11.7845 11.7574 10.9838 11.7574 9.99982C11.7574 9.01649 10.9569 8.21582 9.97317 8.21582Z" fill="white"/>
+                                </svg>
+                            </a></li>
+                            <li><a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5678 7.11292C16.1423 7.30159 15.6846 7.4292 15.2046 7.48619C15.6947 7.19257 16.0708 6.72796 16.2483 6.17345C15.7897 6.44549 15.2816 6.64283 14.7412 6.7492C14.3083 6.28814 13.6915 6 13.0085 6C11.6981 6 10.6352 7.06283 10.6352 8.37327C10.6352 8.55929 10.6563 8.74035 10.697 8.91416C8.7246 8.81522 6.97575 7.87044 5.80513 6.43416C5.60088 6.7846 5.48372 7.19257 5.48372 7.62743C5.48372 8.45062 5.90301 9.17735 6.53947 9.60283C6.15062 9.59062 5.78442 9.48389 5.4646 9.30566C5.46442 9.31575 5.46442 9.32584 5.46442 9.33575C5.46442 10.4857 6.28283 11.4448 7.36832 11.6627C7.16938 11.7172 6.95929 11.746 6.74319 11.746C6.58991 11.746 6.44142 11.7313 6.29664 11.7037C6.59858 12.6464 7.47487 13.3326 8.51363 13.3519C7.70124 13.9885 6.67805 14.3678 5.56584 14.3678C5.37469 14.3678 5.18531 14.3566 5 14.3345C6.04973 15.0081 7.29752 15.4009 8.6377 15.4009C13.003 15.4009 15.3903 11.7846 15.3903 8.64814C15.3903 8.54531 15.388 8.44283 15.3834 8.34124C15.8474 8.00673 16.2497 7.58885 16.5678 7.11292V7.11292Z" fill="white"/>
+                                </svg>
+                            </a></li>
+                            <li><a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.4249 10.3175H10.6533V16.8081H7.96902V10.3175H6.69238V8.03641H7.96902V6.5603C7.96902 5.50473 8.47044 3.85181 10.6772 3.85181L12.6655 3.86013V6.07428H11.2228C10.9862 6.07428 10.6534 6.19251 10.6534 6.69605V8.03853H12.6595L12.4249 10.3175Z" fill="white"/>
+                                </svg>
+                                    
+                            </a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-12 col-12 col-sm-12">
+                    <div class="navbar">
+                        <div class="row align-items-center">
+                            <div class="burger_hide" id="burger_hide">
+                                <div class="burger" id="menu-burger">
+                                    <img src="assets/images/burger.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2 col-2 col-sm-2">
+                                <div class="logo">
+                                    <a href="#"><span>SMM</span>EYE<span>.</span>COM</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-9 col-8 col-sm-8 d-flex justify-content-end align-items-center">
+                                <ul class="menu">
+                                    <li><a href="#">Блог</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#" class="active">Новости</a></li>
+                                    <li><a href="#">Партнёрка</a></li>
+                                </ul>
+                                <a href="#" class="btn">Вход</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-main">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 col-md-12 col-12 col-sm-12 texts">
+                                <h1>Накрутка в <span class="d-flex align-items-center  d-md-flex justify-content-md-center">Instagram <img src="assets/images/insta-like.svg" alt=""></span></h1>
+                                <ul class="list d-flex justify-content-md-center">
+                                    <li><img src="assets/images/icons/heart.svg" alt=""> Лайки</li>
+                                    <li><img src="assets/images/icons/user.svg" alt=""> Подписчики</li>
+                                    <li><img src="assets/images/icons/clock.svg" alt=""> Просмотры</li>
+                                    <li><img src="assets/images/icons/clock.svg" alt=""> Показы</li>
+                                </ul>
+                                <div class="btns d-md-flex justify-content-md-center">
+                                    <a href="#" class="active btn">Регистрация</a>
+                                    <a href="#" class="btn">Бесплатная накрутка</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-12 col-sm-12 right d-md-flex justify-content-md-center" style="position: relative;">
+                                <img src="assets/images/main1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="security">
+        <div class="container">
+            <h1><span>Безопасная</span> накрутка без<br>блокировок</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-12 left-bar">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna 
+                    <br><br>
+                    Fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                </div>
+                <div class="col-lg-6 col-md-12 order">
+                    <div class="img" style="width: 100%; height: 100%">
+                        <img style="width: 100%; height: 100%;" src="assets/images/phone.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 cards">
+                    <div class="items">
+                        <div class="item left">
+                            <div class="icon"><img src="assets/images/icons/coin.svg" alt=""></div>
+                            Низкая стоимость
+                        </div>
+                        <div class="item right">
+                            Быстрый запуск
+                            <div class="icon"><img src="assets/images/icons/rocket.svg" alt=""></div>
+                        </div>
+                        <div class="item left">
+                            <div class="icon"><img src="assets/images/icons/person24.svg" alt=""></div>
+                            Поддержка 24/7
+                        </div>
+                        <div class="item right">
+                            Простой АPI
+                            <div class="icon"><img src="assets/images/icons/api.svg" alt=""></div>
+                        </div>
+                        <div class="item left">
+                            <div class="icon" style="margin-right: 20px;"><img src="assets/images/icons/hands.svg" alt=""></div>
+                            Выгодная партнёрка
+                        </div>
+                        <div class="item right">
+                            30+ вариантов<br>оплаты
+                            <div class="icon"><img src="assets/images/icons/lock-card.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="questions">
+        <div class="container">
+            <h1>Частозадаваемые <span>вопросы</span></h1>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 col-sm-12">
+                    <div class="items">
+                        <div class="openitem">                            
+                            <div class="img">
+                                <img src="assets/images/icons/plus.svg" alt="">
+                                <img src="assets/images/icons/minus.svg" alt="" style="display: none;">
+                            </div>
+                            <div class="texts">
+                                <div class="title">Как оформить крупный оптовый заказ и получить скидку?</div>
+                                <p class="desc">Вам потребуется авторизоваться в личном кабинете и пополнить баланс на определенную сумму, получив скидку на пополнение до 15%.</p>
+                            </div>
+                        </div>
+                        <div class="openitem">                            
+                            <div class="img">
+                                <img src="assets/images/icons/plus.svg" alt="">
+                                <img src="assets/images/icons/minus.svg" alt="" style="display: none;">
+                            </div>
+                            <div class="texts">
+                                <div class="title">Как работает сервис и как выполняются заказы?</div>
+                                <p class="desc">Вам потребуется авторизоваться в личном кабинете и пополнить баланс на определенную сумму, получив скидку на пополнение до 15%.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 col-sm-12">
+                    <div class="items">
+                        <div class="openitem" id="mtop">                            
+                            <div class="img">
+                                <img src="assets/images/icons/plus.svg" alt="">
+                                <img src="assets/images/icons/minus.svg" alt="" style="display: none;">
+                            </div>
+                            <div class="texts">
+                                <div class="title">Как быстро мой заказ будет выполнен?</div>
+                                <p class="desc">Вам потребуется авторизоваться в личном кабинете и пополнить баланс на определенную сумму, получив скидку на пополнение до 15%.</p>
+                            </div>
+                        </div>
+                        <div class="openitem">                            
+                            <div class="img">
+                                <img src="assets/images/icons/plus.svg" alt="">
+                                <img src="assets/images/icons/minus.svg" alt="" style="display: none;">
+                            </div>
+                            <div class="texts">
+                                <div class="title">Использовать SMMEYE безопасно?</div>
+                                <p class="desc">Вам потребуется авторизоваться в личном кабинете и пополнить баланс на определенную сумму, получив скидку на пополнение до 15%.</p>
+                            </div>
+                        </div>
+                        <div class="openitem">                            
+                            <div class="img">
+                                <img src="assets/images/icons/plus.svg" alt="">
+                                <img src="assets/images/icons/minus.svg" alt="" style="display: none;">
+                            </div>
+                            <div class="texts">
+                                <div class="title">Как правильно заполнить форму при создании заказа?</div>
+                                <p class="desc">Вам потребуется авторизоваться в личном кабинете и пополнить баланс на определенную сумму, получив скидку на пополнение до 15%.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catalogs">
+        <div class="container">
+            <h1 style="width: 70%; margin: auto;"><span>Каталог</span> услуг по накрутке в Instagram</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus</h2>
+            <div class="row">
+                <div class="col-lg-4 media_hide">
+                    <div class="card">
+                        <div class="top">
+                            <p class="title">Площадка</p>
+                            <a href="#" class="free">Бесплатно</a>
+                        </div>
+                        <div class="card-items">
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Instagram.svg" alt="">
+                                    Instagram
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Telegram.svg" alt="">
+                                    Telegram
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Twitch.svg" alt="">
+                                    Twitch
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div>
+
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/YouTube.svg" alt="">
+                                    YouTube
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div><div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Tumblr.svg" alt="">
+                                    Tumblr
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Discord.svg" alt="">
+                                    Discord
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Vkontakte.svg" alt="">
+                                    Vkontakte 
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">
+                                    <img src="assets/images/socials/Snapchat.svg" alt="">
+                                    Snapchat
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 media_hide">
+                    <div class="card">
+                        <div class="top">
+                            <p class="title">Услуга</p>
+                        </div>
+                        <div class="card-items checkbox">
+                            <div class="card-item">
+                                <div class="title">                                    
+                                    Подписчики
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Лайки
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Комментарии
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Просмотры
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div><div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Tumblr
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Сохранения
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Reels 
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    IGTV
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Ирансляции
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Визиты
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="card-item checkbox">
+                                <div class="title">                                    
+                                    Истории
+                                </div>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-12 col-sm-12">
+                    <div class="order-form">
+                        <div class="blok hide_form">
+                            <div class="top">
+                                <p class="title">Площадка</p>
+                                <div class="free">Бесплатно</div>
+                            </div>                            
+                            <select name="social" id="">
+                                <option value="1" selected>Instagram</option>
+                                <option value="2">Facebook</option>
+                                <option value="3">Twitter</option>
+                            </select>
+                        </div>
+                        <div class="blok hide_form">
+                            <p class="title">Тип услуги</p>                    
+                            <select name="type" id="">
+                                <option value="1" selected>Подписчики</option>
+                                <option value="2">Подписчики</option>
+                                <option value="3">Подписчики</option>
+                            </select>
+                        </div>
+                        <div class="blok">
+                            <p class="title">Тариф</p>
+                            <select name="" id="">
+                                <option value="1" selected>Подписчики “СуперЭконом”: 0.23₽/1шт</option>
+                                <option value="2">Подписчики “СуперЭконом”: 0.23₽/1шт</option>
+                                <option value="3">Подписчики “СуперЭконом”: 0.23₽/1шт</option>
+                                <option value="4">Подписчики “СуперЭконом”: 0.23₽/1шт</option>
+                            </select>
+                        </div>
+                        <div class="blok">
+                            <p class="title">Ссылка</p>
+                            <input type="url" placeholder="https://www.instagram.com/">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-6 col-sm-6">
+                                <div class="calc">
+                                    <p class="title">Количество</p>
+                                    <div class="calculate">
+                                        <button id="minus">-</button>
+                                        <input type="number" value="0" id="input">
+                                        <button id="plus" onclick="add()">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6 col-sm-6">
+                                <p class="title">Стоимость</p>
+                                <div class="sum d-flex justify-content-center align-items-center" id="total">0 ₽</div>
+                            </div>                            
+                        </div>
+                        <div class="blok promo">
+                            <p class="title">Промокод</p>
+                            <div>
+                                <input type="text" placeholder="Введите промокод">
+                                <button type="submit">Активировать</button>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-order">Создать заказ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="add-likes" style="width: 100%;">
+        <div class="container d-flex justify-content-center align-items-center flex-column" style="width: 100%;">
+            <h1><span>Бесплатная</span> накрутка лайков</h1>
+            <p class="title-desc">Для запуска необходимо указать ссылку на профиль</p>
+            <form action="#">
+                <input type="url" placeholder="https://www.instagram.com/">
+                <button type="submit">Запустить</button><br>
+            </form>
+            <p class="count">Максимальное количество лайков на один пост 100 шт.</p>
+
+            <p class="ad">Хотите зарабатывать с нами? Присоединяйтесь к нашей <a href="#">партнёрке</a>!</p>
+
+            <h2>Уникальное <span>предложение</span>  для оптовиков реселлеров</h2>
+
+            <div class="items">
+                <div class="item">
+                    <div class="img">
+                        <img src="assets/images/icons/sale.png" alt="">
+                    </div>
+                    <div class="texts">
+                        <p class="title">Бонусы и скидки</p>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="assets/images/icons/medal.png" alt="">
+                    </div>
+                    <div class="texts">
+                        <p class="title">100% гарантия</p>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-7 d-md-flex justify-content-md-start">
+                <h1><span>Отзывы</span> клиентов</h1>
+                </div>                
+                <div class="col-lg-7 col-md-5 d-flex align-items-center justify-content-end arr">
+                    <div class="arrows d-flex">
+                        <div class="left" id="goToPrevSlide">
+                            <img id="leftgray" src="assets/images/icons/arrow-gray.svg" alt="">
+                            <img id="leftwhite" style="transform: rotate(180deg);" src="assets/images/icons/arrow-white.svg" alt="">
+                        </div>
+                        <div class="right" id="goToNextSlide">
+                            <img id="rightgray" style="transform: rotate(180deg);" src="assets/images/icons/arrow-gray.svg" alt="">
+                            <img id="rightwhite" src="assets/images/icons/arrow-white.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider container-fliud">
+            <ul id="Slider-Bar" class="cs-hidden">
+                    <!-- 1 -->
+                    <li class="item-a">
+                        <div class="review">
+                            <div class="comment">
+                                Были отправлены настоящие лайки.. Определенно рекомендую!!
+                            </div>
+                            <div class="personal d-flex align-items-center">
+                                <div class="img">
+                                    <img src="assets/images/person/kseniya.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Ксения</p>
+                                    <span class="date"> 27 января, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 2 -->
+                    <li class="item-b">
+                        <div class="review">
+                            <div class="comment">
+                                Лайки пришли практически моментально после оплаты заказа. Профили нормальные, списаний пока не было. Спасибо!
+                            </div>
+                            <div class="personal d-flex align-items-center">
+                                <div class="img">
+                                    <img src="assets/images/person/anna.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Анна</p>
+                                    <span class="date"> 27 января, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 3 -->
+                    <li class="item-c">
+                        <div class="review">
+                            <div class="comment">
+                                Заказываю не первый раз, если неправильно указала ссылку, то всегда свяжутся и уточнят, очень приветливые менеджеры
+                            </div>
+                            <div class="personal d-flex align-items-center">
+                                <div class="img">
+                                    <img src="assets/images/person/yulya.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Юлия</p>
+                                    <span class="date"> 27 января, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 4 -->
+                    <li class="item-d">
+                        <div class="review">
+                            <div class="comment">
+                                Заказываю не первый раз, если неправильно указала ссылку, то всегда свяжутся и уточнят, очень приветливые менеджеры
+                            </div>
+                            <div class="personal d-flex align-items-center">
+                                <div class="img">
+                                    <img src="assets/images/person/kseniya.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Флора</p>
+                                    <span class="date"> 27 января, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 5 -->
+                    <li class="item-e">
+                        <div class="review">
+                            <div class="comment">
+                                Заказываю не первый раз, если неправильно указала ссылку, то всегда свяжутся и уточнят, очень приветливые менеджеры
+                            </div>
+                            <div class="personal d-flex align-items-center">
+                                <div class="img">
+                                    <img src="assets/images/person/yulya.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Нина</p>
+                                    <span class="date"> 27 января, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>                
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="#">Оставить отзыв</a>
+            </div>
+        </div>
+    </div>
+    <div class="statistics">
+        <div class="container">
+            <h1><span>Статистика</span> сервиса</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12 d-flex justify-content-center align-items-center flex-column item">
+                    <div class="big">2,500</div>
+                    <p class="title">Статистика за сутки</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12 d-flex justify-content-center align-items-center flex-column item">
+                    <div class="big">5,000+</div>
+                    <p class="title">Пользователей за сутки</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12 d-flex justify-content-center align-items-center flex-column item">
+                    <div class="big">170+</div>
+                    <p class="title">Заказов выполнено</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12 col-sm-12">
+                    <div class="logo">
+                        <a href="#"><span>SMM</span>EYE<span>.</span>COM</a>
+                    </div>
+                    <div class="copyright">© 2022 All rights reserved</div>
+                </div>
+                <div class="col-lg-2 col-md-12 col-12 col-sm-12 med">
+                    <p class="title">Сообщество</p>
+                    <ul>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Политика cookie</a></li>
+                        <li><a href="#">Условия обслуживания</a></li>
+                        <li><a href="#">Оферта</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12 col-12 col-sm-12 med">
+                    <p class="title">Партнёрам</p>
+                    <ul>
+                        <li><a href="#">API разработчикам</a></li>
+                        <li><a href="#" class="purp">Прайс-лист на услуги</a></a></li>
+                        <li><a href="#">Условия обслуживания</a></li>
+                        <li><a href="#">Оферта</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12 col-12 col-sm-12 med">
+                    <p class="title">Контакты</p>                           
+                    <ul>
+                        <li>
+                            <div class="box">
+                                <div class="subtitle"><img src="assets/images/icons/mail.svg" alt="">E-Mail:</div>
+                                <a href="#">@smmeye</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="subtitle"><img src="assets/images/icons/mail.svg" alt="">E-Mail:</div>
+                                <a href="#">prsale@smmeye</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 col-sm-12 med">
+                    <p class="title">Принимаем к оплате</p>
+                    <div class="card-bar">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="assets/images/bank/Visa.svg" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="assets/images/bank/MasterCard.svg" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="assets/images/bank/Qiwi.svg" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="assets/images/bank/WebMoney.svg" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="assets/images/bank/Sberbank (Сбербанк).svg" alt="">                        
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="assets/images/bank/Stripe.svg" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="assets/images/bank/Payeer.svg" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="assets/images/bank/ApplePay.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

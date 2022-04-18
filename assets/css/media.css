@@ -1,0 +1,391 @@
+@media screen and (min-width: 1024px) {
+	.header .header-main h1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: start;
+	}
+	.header .header-main .list {
+		justify-content: flex-start !important;
+	}
+	.header .btns {
+		justify-content: flex-start !important;
+	}
+	.header .navbar .burger {
+		display: none !important;
+	}
+	.left-menu .logo {
+		display: none;
+	}
+	.hide_form {
+		display: none;
+	}	
+}
+@media screen and (max-width: 1024px) {
+	.header-main h1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: start;
+	}
+	
+	.header-main .right img{
+		max-width: 105%;
+		height: 382px;
+	}
+	.header .navbar .menu {
+		display: none;
+	}	
+	.left-menu  .menu {
+		display: flex !important;
+	}
+	.header-main .list li {
+		font-size: 14px !important;
+	}
+	.header-main .list li:not(:first-child) {
+		margin-left: 22px !important;
+	}
+	.header-main .list li img {
+		margin-right: 5px !important;
+	}
+	.left-menu .shapes {
+		padding-top: 133px !important;
+	}
+	.add-likes .count {
+		width: 78.3% !important;
+	}
+	.promo button {
+		padding: 15.5px 24px 14px 24px !important;
+	}
+	.slider {
+		padding-left: 72px !important;
+	}
+}
+@media screen and (max-width: 768px){	
+	.side-menu {
+		display: none;
+	}
+	.left-menu.active,.side-menu.active {
+		display: flex !important;
+	}
+	.left-menu .logo {
+		display: flex;
+	}
+	#mtop {
+		margin-top: 30px;
+	}
+	#left-burger {
+		position: absolute;
+		top: 13.5px;
+		right: -62px;
+	}
+	.header .left-menu .toggle {
+		padding-top: 20px;
+	}
+	.socials-menu .socials, .header .navbar .menu {
+		display: none;
+	}
+	.header-main .right {
+		order: -1;
+	}
+	.header-main .right img {
+		position: relative;
+		top: -69px;
+	}
+	.header-main h1 {
+		align-items: center;
+	}
+	.header-main .texts {
+		position: relative;
+		top: -100px;
+	}
+	.header {
+		padding-top: 14px !important;
+	}
+	.header .row .side-menu {
+		position: absolute !important;
+		padding-top: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+		background-color: #fff;
+	}
+	.header .left-menu {
+		width: 100%;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+	}
+	.security .row .order {
+		order: -1;
+	}
+	.security .row .order .img {
+		max-width: 400px;
+		width: 100%;
+		margin: auto;
+	}
+	.security .left-bar {
+		padding-top: 30px !important;
+	}
+	.security .cards {
+		padding-top: 30px;
+	}
+	.security .items {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		padding-top: 0;
+	}
+	.security .item.right {
+		max-width: 100%;
+		justify-content: end;
+	}
+	.security .item.right .icon {
+		margin-left: 20px;
+	}
+	.media_hide {
+		display: none;
+	}
+	.order-form {
+		padding: 0 !important;
+		box-shadow: none !important;
+		height: 627px !important;
+	}
+	.btn-order {
+		width: 100%;
+	}
+	.add-likes form {
+		flex-direction: column;
+	}
+	.add-likes form button {
+		margin-top: 16px;
+	}
+	.add-likes .count {
+		width: 100% !important;
+		margin-top: -10px;
+	}
+	.add-likes h2 {
+		font-size: 26px !important; 
+	}
+	.add-likes .items {
+		flex-direction: column;
+	}
+	.add-likes .item:not(:first-child) {
+		margin-left: 0 !important;
+		margin-top: 30px;
+	}
+	.add-likes .items {
+		margin-top: 32px !important;
+	}
+	.catalogs, .reviews {
+		padding-top: 40px !important;
+	}
+	.reviews {
+		padding-bottom: 80px !important;
+	}
+	.slider {
+		padding-left: 42px !important;
+	}
+	.statistics .big {
+		font-size: 50px !important;
+	}
+	footer {
+		margin-top: 97px !important;
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+	footer .med {
+		margin-top: 30px;
+	}
+	footer ul {
+		margin-top: 12px !important;
+	}
+	footer .cards:last-child {
+		margin-top: 13px !important;
+	}
+}
+@media screen and (max-width: 425px) {
+	.header {
+		padding-top: 27px !important;
+		position: relative;
+	}
+	h1 {
+		font-size: 24px !important;
+	}
+	.for-hide {
+		display: block !important;
+	}	
+	.left-menu .shapes {
+		justify-content: start !important;
+		align-items: start !important;
+	}
+	.questions .openitem .title {
+		font-size: 14px !important;
+	}
+	.questions .openitem .desc {
+		font-size: 12px !important;
+	}
+	.header-main .right img {
+		max-width: 100% !important;
+		height: auto !important;
+		top: -33px;
+	}
+	.header-main .list li {
+		font-size: 12px !important;
+		display: flex;
+		align-items: center;
+	}
+	.header-main .list li img {
+		margin-right: 13px !important;
+	}
+	.header-main .list li:last-child {
+		display: none;
+	}
+	.header-main .texts {
+		position: relative;
+		top: -60px;
+	}
+	.logo a {
+		font-size: 20px !important;
+	}
+	.navbar .btn {
+		font-size: 14px !important;
+	}
+	.header .socials-menu .burger {
+		display: none;
+	}
+	.header-main h1 {
+		font-size: 36px !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.header-main h1 span {
+		font-size: 56px;
+	}
+	.header-main .list {
+		justify-content: center;
+	}
+	.header-main .list li:not(:first-child) {
+		margin-left: 14px !important;
+	}
+	.header-main .btns {
+		display: flex;
+		flex-direction: column;
+	}
+	.header-main .btns .btn {
+		text-align: center;
+	}
+	.header-main .btns .btn:not(:first-child) {
+		margin-top: 20px;
+	}
+	.catalogs h2 {
+		font-size: 14px !important;
+	}
+	.add-likes h2 {
+		font-size: 20px !important;
+		width: 80% !important;
+		margin-top: 40px !important;
+	}
+	.add-likes .item .title {
+		font-size: 16px !important;
+	}
+	.add-likes .item .desc {
+		font-size: 14px !important;
+		margin-top: 10px!important;
+	}
+	.add-likes .item .img {
+		max-width: 147px !important;
+		max-height: 129px !important;
+	}
+	.add-likes form {
+		padding-top: 32px !important;
+	}
+	.add-likes .ad {
+		font-size: 14px !important;
+		text-align: center;
+	}
+	.reviews h1 {
+		text-align: start;
+	}
+	.reviews .arr {
+		justify-content: flex-start !important;
+		margin-top: 40px;
+	}
+	.slider {
+		padding-left: 15px !important;
+	}
+	.review {
+		max-width: 300px !important;
+		margin: 55px 15px 40px 0 !important;
+	}
+	.review .name, .review .comment {
+		font-size: 14px !important;
+	}
+	.review .date {
+		font-size: 12px !important;
+	}
+	.statistics .row {
+		padding-top: 50px !important;
+	}
+	.statistics .item:not(:first-child) {
+		margin-top: 50px;
+	}
+	footer .logo a {
+		font-size: 30px !important;
+	}
+	
+}
+@media screen and (max-width: 320px) {
+	.navbar .btn {
+		padding: 9.5px 40.5px !important;
+	}
+	.navbar .logo a  {
+		font-size: 16px !important;
+	}
+	.header-main h1 span {
+		font-size: 38px;
+	}
+	.header-main h1 img {
+		width: 38px !important;
+	}
+	.header-main .list li {
+		font-size: 11px !important;
+	}
+	.header-main .list li img {
+		margin-right: 8px !important;
+		max-width: 15px;
+		width: 100%;
+	}
+	#left-burger {
+		right: -51px;
+	}
+	.add-likes .item .desc {
+		font-size: 11px !important;
+	}
+	.add-likes .item .texts {
+		margin-left: 16px !important;
+	}
+	.add-likes .item .desc {
+		line-height: 20px !important;
+	}
+	.add-likes h2 {
+		font-size: 18px !important;
+		width: 100% !important;
+	}
+	.catalogs h1 {
+		width: 100% !important;
+	}
+	.order-form .blok input {
+		font-size: 12px !important;
+	}
+	.title-desc {
+		font-size: 12px;
+		text-align: center;
+	}
+}
